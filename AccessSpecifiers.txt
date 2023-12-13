@@ -1,0 +1,15 @@
+Modifier 1: Public Access Modifiers
+
+If a class is declared as public then we can access that class from anywhere.
+
+Modifier 2: Protected Access Modifier
+
+This modifier can be applied to the data member, method, and constructor. A member is declared as protected as we can access that member within the current package and only in the child class of the outside package.
+
+Modifier 3: Private Access Modifiers
+
+It is only applicable to constructors, methods, and fields inside the classes. 
+
+Modifier 4: Package(Default) Access Modifier  
+
+A class or method or variable declare without any access modifier then is considered that it has a package(default)access modifier The default modifier act as public within the same package and acts as private outside the package. If a class is declared as default then we can access that class only within the current package i.e from the outside package we can’t access it.
