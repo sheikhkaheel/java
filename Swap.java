@@ -4,7 +4,7 @@ public class Swap {
         int a = num2;
         int b = temp;
 
-        System.out.println("Swap of num1 + num2 " + a + " " + b);
+        System.out.println("Swap of num1 & num2 " + a + " " + b);
     }
 
     public static void main(String[] args){

@@ -18,12 +18,13 @@ class Decrement {
     public static void main(String[] args) {
         Decrement d = new Decrement();
         System.out.print("Enter number: ");
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int[] result = d.printDecrement(num);
-        System.out.print("Decrement of " + num + ": ");
-        for (int value : result) {
-            System.out.print(value + " ");
+        try (Scanner sc = new Scanner(System.in)) {
+            int num = sc.nextInt();
+            int[] result = d.printDecrement(num);
+            System.out.print("Decrement of " + num + ": ");
+            for (int value : result) {
+                System.out.print(value + " ");
+            }
         }
     }
 }
