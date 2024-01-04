@@ -4,7 +4,7 @@ class Decrement {
     private int[] reverse;
 
     public int[] printDecrement(int number) {
-        reverse = new int[number]; // Initialize the array with the size of 'number'
+        int[] reverse = new int[number]; // Initialize the array with the size of 'number'
         int i = 0;
 
         while (number > 0) {
